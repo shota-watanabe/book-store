@@ -1,0 +1,15 @@
+current directory: /Users/watasho/study/bookstore/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+/Users/watasho/.rbenv/versions/3.1.0/bin/ruby -I /Users/watasho/.rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20230219-18242-sdx5rp.rb extconf.rb
+creating Makefile
+
+current directory: /Users/watasho/study/bookstore/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/watasho/study/bookstore/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/watasho/study/bookstore/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230219-18242-jtpo0d/bootsnap

@@ -1,0 +1,16 @@
+current directory: /Users/watasho/study/bookstore/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+/Users/watasho/.rbenv/versions/2.7.6/bin/ruby -I /Users/watasho/.rbenv/versions/2.7.6/lib/ruby/2.7.0 -r ./siteconf20230219-14822-h13io0.rb extconf.rb
+creating Makefile
+
+current directory: /Users/watasho/study/bookstore/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR=" clean
+
+current directory: /Users/watasho/study/bookstore/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/watasho/study/bookstore/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230219-14822-puorwq/debug
