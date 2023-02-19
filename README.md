@@ -1,24 +1,25 @@
-# README
+# 概要
+FinderObject学習用リポジトリ。  
+[Digging Into the Finder Object Pattern](http://vaidehijoshi.github.io/blog/2015/10/27/digging-into-the-finder-object-pattern/)の内容を、アプリを作成して試してみました。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 環境構築
+1. bundle install
 
-Things you may want to cover:
+```ruby
+bundle install
+```
 
-* Ruby version
+2. DB作成、マイグレート
 
-* System dependencies
+```ruby
+bundle exec rails db:create
+```
+```ruby
+bundle exec rails db:migrate
+```
 
-* Configuration
+3. seed実行
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+bundle exec rails db:seed
+```
